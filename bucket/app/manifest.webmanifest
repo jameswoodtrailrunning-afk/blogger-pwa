@@ -1,15 +1,15 @@
 {
-  "name": "My Blog",
-  "short_name": "My Blog",
-  "description": "My blog description goes here...",
+  "name": "T-RUN",
+  "short_name": "T-RUN",
+  "description": "Trail running adventures, techniques and guides from T-RUN.",
   "dir": "auto",
   "lang": "en-US",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "#1E3B2F",
+  "theme_color": "#1E3B2F",
   "display": "standalone",
   "orientation": "natural",
   "scope": "/",
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "/",
   "id": "/",
   "prefer_related_applications": false,
   "icons": [
@@ -111,32 +111,6 @@
       "type": "image/png",
       "sizes": "720x540",
       "form_factor": "wide"
-    }
-  ],
-  "shortcuts": [
-    {
-      "icons": [
-        {
-          "src": "icons/android-chrome-96x96.png",
-          "sizes": "96x96"
-        }
-      ],
-      "name": "Shortcut 1",
-      "short_name": "Shortcut 1",
-      "description": "Shortcut 1 description goes here...",
-      "url": "/search/label/shortcut-1?utm_source=homescreen"
-    },
-    {
-      "icons": [
-        {
-          "src": "icons/android-chrome-96x96.png",
-          "sizes": "96x96"
-        }
-      ],
-      "name": "Shortcut 2",
-      "short_name": "Shortcut 2",
-      "description": "Shortcut 2 description goes here...",
-      "url": "/search/label/shortcut-2?utm_source=homescreen"
     }
   ]
 }
