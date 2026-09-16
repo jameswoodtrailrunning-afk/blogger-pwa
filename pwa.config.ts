@@ -6,7 +6,7 @@ export default defineConfig({
     name: "T-RUN",
     short_name: "T-RUN",
     description:
-      "Discover urban trails, trail running techniques, route guides and reflections from T-RUN.",
+      "Trail running adventures, techniques and guides from T-RUN.",
     dir: "auto",
     lang: "en",
     background_color: "#1E3B2F",
