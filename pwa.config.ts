@@ -8,7 +8,7 @@ export default defineConfig({
     description:
       "Trail running adventures, techniques and guides from T-RUN.",
     dir: "auto",
-    lang: "en",
+    lang: "en-US",
     background_color: "#1E3B2F",
     theme_color: "#1E3B2F",
     display: "standalone",
@@ -24,7 +24,7 @@ export default defineConfig({
 
   oneSignal: {
     enabled: false,
-    appId: "",
+    appId: "********-****-****-****-************",
     allowLocalhostAsSecureOrigin: true,
   },
 
