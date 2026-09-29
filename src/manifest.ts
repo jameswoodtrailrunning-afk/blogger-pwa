@@ -64,7 +64,6 @@ export function getManifest(
         src: path.posix.join(iconsBase, 'android-chrome-192x192.png'),
         sizes: '192x192',
         type: 'image/png',
-        purpose: 'maskable',
       },
       {
         src: path.posix.join(iconsBase, 'android-chrome-256x256.png'),
@@ -78,6 +77,14 @@ export function getManifest(
       },
       {
         src: path.posix.join(iconsBase, 'android-chrome-512x512.png'),
+        sizes: '512x512',
+        type: 'image/png',
+      },
+      {
+        src: path.posix.join(
+          iconsBase,
+          'android-chrome-maskable-512x512.png',
+        ),
         sizes: '512x512',
         type: 'image/png',
         purpose: 'maskable',
