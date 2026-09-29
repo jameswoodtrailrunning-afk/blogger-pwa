@@ -77,10 +77,11 @@ export function getManifest(
         type: 'image/png',
       },
       {
-        src: path.posix.join(iconsBase, 'android-chrome-512x512.png'),
-        sizes: '512x512',
-        type: 'image/png',
-      },
+  src: path.posix.join(iconsBase, 'android-chrome-512x512.png'),
+  sizes: '512x512',
+  type: 'image/png',
+  purpose: 'any maskable',
+},
     ],
     ...(screenshots && screenshots.length !== 0
       ? {
