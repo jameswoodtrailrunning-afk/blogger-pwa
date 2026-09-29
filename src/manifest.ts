@@ -82,7 +82,6 @@ export function getManifest(
         ),
         sizes: '512x512',
         type: 'image/png',
-        purpose: 'maskable',
       },
       {
         src: path.posix.join(
