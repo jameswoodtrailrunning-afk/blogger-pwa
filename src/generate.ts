@@ -83,6 +83,7 @@ if (!(await existsPath(UPLOAD_FAVICON_PATH))) {
 log(clc.green(`  +  Favicon was found at ${UPLOAD_FAVICON_PATH}`));
 const response = await favicons(UPLOAD_FAVICON_PATH, {
   background: config.manifest.background_color,
+  manifestMaskable: UPLOAD_FAVICON_PATH,
 });
 
 await createDirectory(APP_ICONS_DIR);
