@@ -78,7 +78,7 @@ export function getManifest(
      {
         src: path.posix.join(
           iconsBase,
-          'android-chrome-maskable-512x512.png',
+          'android-chrome-512x512.png',
         ),
         sizes: '512x512',
         type: 'image/png',
