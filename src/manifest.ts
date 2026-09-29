@@ -76,7 +76,7 @@ export function getManifest(
         sizes: '384x384',
         type: 'image/png',
       },
-      {
+     {
   src: path.posix.join(iconsBase, 'android-chrome-512x512.png'),
   sizes: '512x512',
   type: 'image/png',
